@@ -1,25 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
+import React from 'react'
+// import { DateApp } from './Date'
+import { Content } from './Content'
+export const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+    <Content contact={{name:"zeeshan" ,email:"zee@gmail.com", phone:"+923064347137", address:"Lahore"}}/>
+    <Content contact={{name :"noman", email:"nomi@gmail.com", phone:"+923064347137", address:"Lahore"}}/>
+    </>
+  )
 }
-
-export default App;
