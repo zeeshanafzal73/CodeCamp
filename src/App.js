@@ -1,11 +1,16 @@
-import React from 'react'
+import LogInOut from './LogInOut'
+import { Joke } from './practice/Joke'
+import { JokeData } from './practice/JokeData'
+// import { Props } from './practice/Props'
 // import { DateApp } from './Date'
-import { Content } from './Content'
+// import { Props } from './practice/Props'
 export const App = () => {
+  // const tempLate = JokeData.map((joke) => (
+  //   <Joke Question={joke.question} Puntchline={joke.puntchline} key={joke.id} />
+  // ));
   return (
     <>
-    <Content contact={{name:"zeeshan" ,email:"zee@gmail.com", phone:"+923064347137", address:"Lahore"}}/>
-    <Content contact={{name :"noman", email:"nomi@gmail.com", phone:"+923064347137", address:"Lahore"}}/>
+    <LogInOut/>
     </>
   )
-}
+} 
