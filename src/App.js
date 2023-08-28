@@ -1,6 +1,8 @@
-import LogInOut from './LogInOut'
-import { Joke } from './practice/Joke'
-import { JokeData } from './practice/JokeData'
+// import LogInOut from './LogInOut'
+import ItemRender from './practice/ItemComponent'
+// import SetState from './practice/SetSate'
+// import { Joke } from './practice/Joke'
+// import { JokeData } from './practice/JokeData'
 // import { Props } from './practice/Props'
 // import { DateApp } from './Date'
 // import { Props } from './practice/Props'
@@ -10,7 +12,7 @@ export const App = () => {
   // ));
   return (
     <>
-    <LogInOut/>
+    <ItemRender/>
     </>
   )
 } 
