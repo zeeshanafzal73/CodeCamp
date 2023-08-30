@@ -1,13 +1,16 @@
 import React, { Component } from 'react'
-import Form from './practice/Form'
+import Header from './practice/memegenrator/Header'
+import MemeGenrator from './practice/memegenrator/MemeGenrator'
+
 
 
 export default class App extends Component {
   render() {
     return (
-      <div>
-       <Form/>
-      </div>
+      <>
+       <Header/>
+       <MemeGenrator/>
+      </>
     )
   }
 }
